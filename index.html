@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- En el head declaramos la codificación de caracteres, la vista en dispositivos móviles y el título de la página. 
+También importamos la hoja de estilos normalize.css y la fuente Jersey 10 de Google Fonts. 
+Finalmente, importamos la hoja de estilos style.css. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End Developer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- 
+Dentro de nuestro body creamos un header con un h1 que contiene el título de la página.
+Después creamos una sección con una clase nav-bg que contiene un nav con la clase navigation-major. -->
+
+<body>
+    <header>
+        <h1 class="title">Front-End <span>Developer</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navigation-major container">
+            <a href="nosotros.html">Inicio</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="container-hero">
+            <h2>Diseño y Desarrollo Web</h2>
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="50"
+                    height="50" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                Metepec, Estado de México
+            </p>
+            <a class="button" href="#">Contactar</a>
+        </div>
+    </section>
+
+    <main class="container shadow">
+
+        <h2>Mis Servicios</h2>
+
+        <div class="services">
+            <section class="service">
+                <h3>Diseño Web</h3>
+                <div class="icon-p">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-css3" width="85"
+                        height="85" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                        <path d="M8.5 8h7l-4.5 4h4l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+                    </svg>
+                </div>
+                <p>Eget mauris pharetra et ultrices neque ornare aenean. Bibendum ut tristique et egestas quis.</p>
+            </section>
+
+            <section class="service">
+                <h3>Sitios Web</h3>
+                <div class="icon-p">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="85"
+                        height="85" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                        <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" />
+                    </svg>
+                </div>
+                <p>Tortor consequat id porta nibh venenatis. Eu feugiat pretium nibh ipsum consequat nisl vel.</p>
+            </section>
+
+            <section class="service">
+                <h3>Aplicaciones Web</h3>
+                <div class="icon-p">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" width="85"
+                        height="85" viewBox="0 0 24 24" stroke-width="1" stroke="#ffffff" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+                        <path d="M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+                        <path d="M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" />
+                        <path d="M14 7l6 0" />
+                        <path d="M17 4l0 6" />
+                    </svg>
+                </div>
+                <p>Erat imperdiet sed euismod nisi porta lorem mollis. Euismod nisi porta lorem mollis aliquam ut
+                    porttitor.</p>
+            </section>
+        </div> <!-- .services -->
+
+
+
+        <section>
+            <h2>Contacto</h2>
+
+            <form class="contact-form">
+                <fieldset>
+                    <legend>Contactame llenando todos los campos</legend>
+
+                    <div class="container-fields">
+                        <div class="field">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Nombre">
+                        </div>
+                        <div class="field">
+                            <label>Teléfono</label>
+                            <input class="input-text" type="tel" placeholder="Teléfono">
+                        </div>
+                        <div class="field">
+                            <label>Correo</label>
+                            <input class="input-text" type="email" placeholder="Correo">
+                        </div>
+                        <div class="field">
+                            <label>Mensaje</label>
+                            <textarea class="input-text" placeholder="Mensaje"></textarea>
+                        </div>
+                    </div> <!-- .container-fields -->
+
+                    <div class="align-right flex">
+                        <button class="button w-sm-100" type="submit">Enviar</button>
+                    </div>
+
+                </fieldset> <!-- fieldset -->
+            </form>
+
+        </section>
+
+    </main> <!-- .container -->
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Victor García.</p>
+    </footer>
+
+</body>
+
+</html>
